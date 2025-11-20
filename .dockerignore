@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Git
+.git/
+.gitignore
+
+# Project specific
+images/
+old-models/
+shape_predictor_68_face_landmarks.dat
+
+# Misc
+*.log
+.DS_Store
+new_req.txt
+call_model.py
+
+# Docker
+Dockerfile
+.dockerignore
