@@ -2,7 +2,6 @@ from fastapi import FastAPI, File, UploadFile, HTTPException
 import numpy as np
 from ultralytics import YOLO
 import io
-import tensorflow as tf
 from PIL import Image
 
 import os
