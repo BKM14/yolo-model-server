@@ -60,7 +60,8 @@ async def predict(file: UploadFile = File(...)):
             "width": result.orig_shape[1],
             "height": result.orig_shape[0]
         },
-        "inference_time_ms": result.speed['inference']
+        "inference_time_ms": result.speed['inference'],
+        "ok": True
     }
 
 @app.get("/health")
